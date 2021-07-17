@@ -1,0 +1,68 @@
+html {font-family: 'Alef', sans-serif;
+    display: inline;}
+
+div {vertical-align: middle;}
+	
+div.verticalLine {
+    border:solid black;
+	width:1vh;
+	height:3vh;
+	margin:auto;
+	background-color:black;
+	}
+
+#div_content {opacity:0;}	
+
+.content {margin:auto;
+		position:relative;
+		padding-left:2%;
+		padding-right:2%;
+		border:1vh black solid;
+		border-radius:2vh;
+		text-align:justify;}
+
+.num {margin:auto;
+	vertical-align:top;
+	padding-left:2%;
+	padding-right:2%;
+	position:absolute;
+	right:0%;
+	display:inline-block;
+	border-radius:5px;
+	//border:0.5vh black solid;
+	text-align:center;
+	background-color:lightblue;}
+
+.part {	position:absolute;
+		display:inline;
+		margin:auto;
+		padding-left:2%;
+		padding-right:0%;
+		width:96%;
+		right:2%;
+		border-radius:2vh;
+		text-align:justify;}
+		
+/* w3schools loader */
+.loader {
+  position:absolute;
+  //left:40%;
+  //top:40vh;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}	
